@@ -7,7 +7,7 @@ import { PropertiesComponent } from './pages/properties/properties.component';
 
 const routes: Routes = [
   {
-    path: "",
+    path: '',
    component: SignalsLayoutComponent,
    children: [
     {path:'counter', component: CounterPageComponent },
